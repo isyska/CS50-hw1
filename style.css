@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(54, 51, 51);
+}
+
+.topbar {
+  display: flex;
+  font-size: 24px;
+  color: rgb(181, 179, 179);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  margin: 0 40px 0 40px;
+  color: rgb(181, 179, 179);
+  font-size: 24px;
+}
+
+.img {
+  color: rgb(181, 179, 179);
+  font-size: 34px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  min-height: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.search-line {
+  width: 480px;
+  height: 44px;
+  font-size: 24px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  background-color: rgb(54, 51, 51);
+  color: rgb(181, 179, 179);
+  /* margin-top: 14px; */
+  margin: 3%;
+  border: 1px solid rgb(181, 179, 179);
+  border-radius: 24px;
+  padding: auto;
+}
+
+.search-button {
+  background-color: rgb(100, 97, 97);
+  color: rgb(181, 179, 179);
+  border: 0px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.search-line:hover,
+.search-line:active {
+  border: none;
+  background-color: rgb(100, 97, 97);
+}
+
+.search-button:hover {
+  border: 3px solid rgb(181, 179, 179);
+}
+
+.advinp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+label{
+  color: rgb(181, 179, 179);
+}
